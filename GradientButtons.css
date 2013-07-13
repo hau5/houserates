@@ -1,0 +1,104 @@
+/*NAVIGATION BAR*/
+
+.container {
+  margin: 80px auto;
+  width: 500px;
+  text-align: center;
+}
+
+.container > .button { margin: 0 12px; }
+
+.button {
+  display: inline-block;
+  vertical-align: top;
+  height: 48px;
+  line-height: 46px;
+  padding: 0 25px;
+  font-family: inherit;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+  border: 1px solid;
+  border-color: black;
+  border-radius: 25px;
+}
+
+.button:active, .button.active {
+  line-height: 48px;
+  color: #ccc;
+  border-color: #1c1c1c #202020 #222;
+  background-image: -webkit-linear-gradient(top, #a3161a, #b63335 60%, #bf4749);
+  background-image: -moz-linear-gradient(top, #a3161a, #b63335 60%, #bf4749);
+  background-image: -o-linear-gradient(top, #a3161a, #b63335 60%, #bf4749);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+}
+
+/*HOMEPAGE*/
+
+/*body {
+  background-image: url(http://cloud-2.steampowered.com/ugc/595867109170500449/87E3E4FDB60531824A282AC185BDB4BEF9E10B1F/);
+  background-size: 100% 100%;
+}*/
+
+body {
+  background: #373939;
+}
+
+#edmbutton{
+  font-weight: bold;
+  width: 400px;
+  height: 200px;
+  border: 4px solid black;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 200px;
+  display: inline-block;
+}
+
+.maincategory {
+  font-weight: bold;
+  color: black;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-size: 100% 100%;
+  text-align: center;
+  line-height: 100px;
+  display: inline-block;
+  background: rgb(180,227,145); /* Old browsers */
+  background: -moz-linear-gradient(45deg,  rgba(180,227,145,1) 0%, rgba(97,196,25,1) 50%, rgba(180,227,145,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(180,227,145,1)), color-stop(50%,rgba(97,196,25,1)), color-stop(100%,rgba(180,227,145,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(45deg,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(45deg,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(45deg,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* IE10+ */
+  background: linear-gradient(45deg,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+}
+
+/*
+#originalbutton{
+  background-image: url(http://s3.amazonaws.com/rapgenius/daft-punk-get-lucky-612x612.jpg);
+}
+
+#bootlegbutton{
+  background-image: url(http://livedesignonline.com/site-files/livedesignonline.com/files/archive/livedesignonline.com/projects/top-concert-designs/DaftPunk-w500.jpg);
+}
+
+#artistbutton{
+  background-image: url(http://www.chartattack.com/wp-content/uploads/2013/04/Daft-Punk-Get-Lucky.jpg);
+}
+
+#livesetbutton{
+  background-image: url(http://cdn.salacioussound.com/wp-content/uploads/2013/05/daft_punk_by_endosage1.png);
+}
+
+#remixbutton{
+  background-image: url(http://kickkicksnare.com/wp-content/uploads/2013/05/Carlo-Astuti-Get-Lucky-remix.jpg);
+  color:black;
+  */
