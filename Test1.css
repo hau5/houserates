@@ -1,7 +1,57 @@
-body {
+/*NAVIGATION BAR*/
+
+.container {
+  margin: 80px auto;
+  width: 500px;
+  text-align: center;
+}
+
+.container > .button { margin: 0 12px; }
+
+.button {
+  display: inline-block;
+  vertical-align: top;
+  height: 48px;
+  line-height: 46px;
+  padding: 0 25px;
+  font-family: inherit;
+  font-size: 15px;
+  color: #bbb;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+  background-color: #303030;
+  background-clip: padding-box;
+  border: 1px solid;
+  border-color: #202020 #1a1a1a #111;
+  border-radius: 25px;
+  background-image: -webkit-linear-gradient(top, #3d3d3d, #272727);
+  background-image: -moz-linear-gradient(top, #3d3d3d, #272727);
+  background-image: -o-linear-gradient(top, #3d3d3d, #272727);
+  background-image: linear-gradient(to bottom, #3d3d3d, #272727);
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.09), 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.09), 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.button:active, .button.active {
+  line-height: 48px;
+  color: #ccc;
+  background-color: #b42f32;
+  border-color: #1c1c1c #202020 #222;
+  background-image: -webkit-linear-gradient(top, #a3161a, #b63335 60%, #bf4749);
+  background-image: -moz-linear-gradient(top, #a3161a, #b63335 60%, #bf4749);
+  background-image: -o-linear-gradient(top, #a3161a, #b63335 60%, #bf4749);
+  background-image: linear-gradient(to bottom, #a3161a, #b63335 60%, #bf4749);
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+}
+
+/*HOMEPAGE*/
+
+/*body {
   background-image: url(http://cloud-2.steampowered.com/ugc/595867109170500449/87E3E4FDB60531824A282AC185BDB4BEF9E10B1F/);
   background-size: 100% 100%;
-}
+}*/
 
 #edmbutton{
   font-weight: bold;
