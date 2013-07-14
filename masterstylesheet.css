@@ -51,7 +51,7 @@ but whatever. Gimme your feedback whenever you open this.*/
   font-size: 14px;
   text-align: center;
   text-decoration: none;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+
   border: 2px solid;
   border-color: black;
   border-radius: 25px;
@@ -76,7 +76,7 @@ but whatever. Gimme your feedback whenever you open this.*/
 #searchbardiv {
   text-align: center;
   float: right;
-  margin: -77px 0 0 0;
+  margin: -78px 0 0 0;
   display: inline-block;
 }
 
