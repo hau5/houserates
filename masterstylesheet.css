@@ -244,25 +244,25 @@ body {
 
 
 #featuredplaylist {
-  width: 40%;
-  color: white;
+  width: 43%;
+  height: 400px;
+  background-color: white;
   float: left;
   border: #ff9933 solid 2px;
-  border-radius: 10px;
-  height: 200px;
+  border-radius: 5px;
   display: inline-block;
-  margin: 50px 0 0 50px;;
+  margin: 50px 0 30px 50px;;
 }
 
-#homepagenews {
-  width: 40%;
-  color: white;
+#featuredvideo {
+  width: 43%;
+  height: 400px;
+  background-color: white;
   float: right;
   border: #ff9933 solid 2px;
-  border-radius: 10px;
-  height: 200px;
+  border-radius: 5px;
   display: inline-block;
-  margin: 50px 50px 0 0;
+  margin: 50px 50px 30px 0;
 }
 
 
