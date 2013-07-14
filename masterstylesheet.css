@@ -1,4 +1,11 @@
 
+
+/* So Ive clearly added a fuck ton of stuff. Just because I put it on there doesnt mean thats how I think it
+should be on the final website (obviously, we just starting) but I just tried to experiment with a bunch of stuff
+to see what looks good and what doesnt. Buttons are active so hover over them. I know it is super colorful,
+but whatever. Gimme your feedback whenever you open this.*/
+
+
 #logotopleft {
   display: inline-block;
   color: #ff9933;
@@ -28,6 +35,14 @@
 }
 
 .container > .button { margin: 0 12px; }
+
+.button.active:hover {
+  -ms-transform: translateY(5px);
+  -webkit-transform: translateY(5px);
+  -moz-transform: translateY(5px);
+  -o-transform: translateY(5px);
+  transform: translateY(5px);
+}
 
 .button {
   display: inline-block;
@@ -117,7 +132,7 @@ body {
   border-radius: 5px;
   background-size: 100% 100%;
   text-align: center;
-  line-height: 100px;
+  line-height: 30px;
   display: inline-block;
   background: rgb(180,227,145); /* Old browsers */
   background: -moz-linear-gradient(45deg,  rgba(180,227,145,1) 0%, rgba(97,196,25,1) 50%, rgba(180,227,145,1) 100%); /* FF3.6+ */
@@ -130,6 +145,30 @@ body {
   -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
 }
+
+.maincategorytexthover {
+  height: 80px;
+  width: 100px;
+  padding-top: 20px;
+
+}
+
+.maincategory:hover {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHxH6WN1nu6v0oN2lbfV3BGoX64xe2R6iulw6ziK0cBEcNHXqG4w);
+  background-size: 100% 100%;
+  border: 1px white solid;
+  color: white;
+}
+
+.maincategory:hover .maincategorytexthover {
+  -ms-transform: translateY(-40px);
+  -webkit-transform: translateY(-40px);
+  -moz-transform: translateY(-40px);
+  -o-transform: translateY(-40px);
+  transform: translateY(-40px);
+}
+
+
 
 /* Home Page Button Background Images*/
 
@@ -178,7 +217,6 @@ body {
   font-size: 14px;
   color: #ff9933;
 }
-
 
 
 
