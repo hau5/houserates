@@ -5,6 +5,7 @@ should be on the final website (obviously, we just starting) but I just tried to
 to see what looks good and what doesnt. Buttons are active so hover over them. I know it is super colorful,
 but whatever. Gimme your feedback whenever you open this.*/
 
+/*NAVIGATION BAR*/
 
 #logotopleft {
   display: inline-block;
@@ -22,10 +23,6 @@ but whatever. Gimme your feedback whenever you open this.*/
 #head {
   margin-bottom: -20px;
 }
-
-
-/*NAVIGATION BAR*/
-
 
 .container {
   margin: 5px 0 10px 80px;
@@ -168,11 +165,6 @@ body {
   transform: translateY(-40px);
 }
 
-
-
-/* Home Page Button Background Images*/
-
-
 #originalbutton{
   /*background-image: url(http://s3.amazonaws.com/rapgenius/daft-punk-get-lucky-612x612.jpg);*/
 }
@@ -196,9 +188,42 @@ body {
   /*background-image: url(http://kickkicksnare.com/wp-content/uploads/2013/05/Carlo-Astuti-Get-Lucky-remix.jpg);*/
 }
 
+
+#featuredplaylist {
+  width: 40%;
+  color: white;
+  float: left;
+  border: #ff9933 solid 2px;
+  border-radius: 10px;
+  height: 200px;
+  display: inline-block;
+  margin: 50px 0 0 50px;;
+}
+
+#homepagenews {
+  width: 40%;
+  color: white;
+  float: right;
+  border: #ff9933 solid 2px;
+  border-radius: 10px;
+  height: 200px;
+  display: inline-block;
+  margin: 50px 50px 0 0;
+}
+
+
+/*ABOUT US PAGE*/
+
+
+h3 {
+  color: #ff9933;
+}
+
+
 /*FOOTER*/
 
 .footerwebsitename {
+  clear: both;
   float: left;
   line-height: 45px;
   margin-top: 15px;
@@ -209,6 +234,7 @@ body {
 
 
 .footertext{
+  clear: both;
   margin-left: 36.5%;
   line-height: 45px;
   margin-top: 15px;
@@ -217,6 +243,3 @@ body {
   font-size: 14px;
   color: #ff9933;
 }
-
-
-
