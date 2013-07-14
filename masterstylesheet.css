@@ -156,3 +156,29 @@ body {
   margin-left: 20px;
   /*background-image: url(http://kickkicksnare.com/wp-content/uploads/2013/05/Carlo-Astuti-Get-Lucky-remix.jpg);*/
 }
+
+/*FOOTER*/
+
+.footerwebsitename {
+  float: left;
+  line-height: 45px;
+  margin-top: 15px;
+  display: inline-block;
+  font-size: 14px;
+  color: #ff9933;
+}
+
+
+.footertext{
+  margin-left: 36.5%;
+  line-height: 45px;
+  margin-top: 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  color: #ff9933;
+}
+
+
+
+
