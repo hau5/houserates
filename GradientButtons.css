@@ -1,7 +1,27 @@
+
+#logotopleft {
+  display: inline-block;
+  color: #ff9933;
+  line-height: 0px;
+  font-size: 24px;
+  height: 80px;
+  width: 250px;
+  line-height: 50px;
+  margin-top: -5px;
+  background-image: url(http://images.cooltext.com/3220296.png);
+  background-size: 100% 100%
+}
+
+#head {
+  margin-bottom: -20px;
+}
+
+
 /*NAVIGATION BAR*/
 
+
 .container {
-  margin: 80px auto;
+  margin: 5px 0 10px 80px;
   width: 500px;
   text-align: center;
   float: right;
@@ -12,44 +32,51 @@
 .button {
   display: inline-block;
   vertical-align: top;
-  height: 48px;
-  line-height: 46px;
+  height: 28px;
   padding: 0 25px;
-  font-family: inherit;
-  font-size: 15px;
+  font-family: serif;
+  font-size: 14px;
   text-align: center;
   text-decoration: none;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
-  border: 1px solid;
+  border: 2px solid;
   border-color: black;
   border-radius: 25px;
 }
 
 .button:active, .button.active {
-  line-height: 48px;
-  color: #ccc;border-color: #1c1c1c #202020 #222;
-  background-image: -webkit-linear-gradient(top, #a3161a, #b63335 60%, #bf4749);
-  background-image: -moz-linear-gradient(top, #a3161a, #b63335 60%, #bf4749);
-  background-image: -o-linear-gradient(top, #a3161a, #b63335 60%, #bf4749);
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+  line-height: 28px;
+  color: black;
+  border-color: #1c1c1c #202020 #222;
+  background: rgb(246,230,180); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(246,230,180,1) 0%, rgba(237,144,23,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,230,180,1)), color-stop(100%,rgba(237,144,23,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(246,230,180,1) 0%,rgba(237,144,23,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(246,230,180,1) 0%,rgba(237,144,23,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(246,230,180,1) 0%,rgba(237,144,23,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(246,230,180,1) 0%,rgba(237,144,23,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
   -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+
 }
 
 /*HOMEPAGE*/
 
-/*body {
-  background-image: url(http://cloud-2.steampowered.com/ugc/595867109170500449/87E3E4FDB60531824A282AC185BDB4BEF9E10B1F/);
-  background-size: 100% 100%;
-}*/
-
 body {
-  background: #373939;
+  background-color: black;
+  /*background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJvwsX5jichT_UPf5pE1wHW_QxBvqFDc1vnHWnqquDFIGxzDpXXg);
+  */
 }
 
 #homeorganization {
+  background-image: url(http://images.psxextreme.com/wallpapers/ps3/color_spectrum_635.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   clear: both;
   text-align: center;
+  border-radius: 10px;
+  padding:50px;
 }
 
 #rowthree {
@@ -63,6 +90,10 @@ body {
   margin: 20px 20px -40px 20px;
 }
 
+#title {
+ opacity: 0;
+}
+
 #edmbutton{
   font-size: 50px;
   font-weight: bold;
@@ -71,16 +102,10 @@ body {
   border: 4px solid black;
   border-radius: 100%;
   text-align: center;
-  line-height: 300px;
+  line-height: 200px;
   display: inline-block;
-  background: -moz-linear-gradient(45deg,  rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(45deg,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(45deg,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(45deg,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* IE10+ */
-  background: linear-gradient(45deg,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+  background-image: url(http://kickkicksnare.com/wp-content/uploads/2013/05/Carlo-Astuti-Get-Lucky-remix.jpg);
+  background-size: 100% 100%;
 }
 
 .maincategory {
@@ -119,7 +144,7 @@ body {
 }
 
 #artistbutton{
-  margin-right: 270px;
+  margin-right: 240px;
   /*background-image: url(http://www.chartattack.com/wp-content/uploads/2013/04/Daft-Punk-Get-Lucky.jpg);*/
 }
 
