@@ -50,7 +50,6 @@ but whatever. Gimme your feedback whenever you open this.*/
   font-size: 14px;
   text-align: center;
   text-decoration: none;
-
   border: 2px solid;
   border-color: black;
   border-radius: 25px;
@@ -200,12 +199,14 @@ body {
   height: 80px;
   width: 100px;
   padding-top: 20px;
+  color: black;
 }
 
 .maincategory:hover {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHxH6WN1nu6v0oN2lbfV3BGoX64xe2R6iulw6ziK0cBEcNHXqG4w);
   background-size: 100% 100%;
   border: 1px white solid;
+  color: white;
 }
 
 .maincategory:hover .maincategorytexthover {
@@ -214,6 +215,7 @@ body {
   -moz-transform: translateY(-40px);
   -o-transform: translateY(-40px);
   transform: translateY(-40px);
+  color: white;
 }
 
 #originalbutton{
@@ -290,9 +292,6 @@ h3 {
   padding: 0 20px 0 20px;
 }
 
-#aboutustext, p {
-  color: black;
-}
 
 #aboutusbackground{
   background-image: url(http://images.psxextreme.com/wallpapers/ps3/color_spectrum_635.jpg);
