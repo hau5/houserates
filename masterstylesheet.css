@@ -267,6 +267,55 @@ body {
 }
 
 
+/*MUSIC PAGE*/
+
+#musicnavbar{
+  height: 60px;
+  width: 40%;
+  /*border: white solid 1px;*/
+  display: block;
+  text-align: center;
+  /*background-color: #ff9933;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.musicnavsub{
+  text-align: center;
+  height: 50px;
+  width: 80px;
+  border: black solid 1px;
+  background-color: #ff9933;
+  color: black;
+  display: inline-block;
+  margin: 4px 0 0 4px;
+}
+
+#musiccontent{
+  width: 60%;
+  margin-top: -50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  border: white solid 1px;
+  background-color: white;
+  opacity: 0.5;
+  overflow: auto;
+}
+
+.musicnavsub:hover {
+  background-color: black;
+  color:white;
+  border: white 1px solid;
+  border-radius: 5px;
+}
+
+.music:active {
+  background-color: red;
+}
+
+
 /*ABOUT US PAGE*/
 
 
