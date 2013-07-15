@@ -273,15 +273,65 @@ body {
 
 #musiccontent{
   width: 60%;
-  margin-top: 0px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   height: 600px;
-  border: white solid 1px;
-  background-color: white;
-  opacity: 1;
+  /*border: white solid 1px;*/
+  background-color: none;
   overflow: auto;
   clear: both;
+}
+
+.individualsong {
+  width: 99%;
+  height: 105px;
+  border: black solid 3px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.rank {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  float: left;
+  margin: 3px;
+  border: #ff9933 solid 2px;
+  border-radius: 100%;
+  background-color: #ff9933;
+}
+
+.vote {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  float: left;
+  clear: left;
+  margin: 3px;
+  border: #00ffff solid 1px;
+  background-color: #00ffff;
+  border-radius: 100%
+}
+
+.songinfo {
+  border: black solid 1px;
+  display: inline-block;
+  height: 105px;
+  width: 300px;
+  float: left;
+  margin: -55px 0 0 10px;
+}
+
+.songembed {
+  display: inline-block;
+  float: right;
+  width: 300px;
+  height: 100px;
+  padding: 0px;
+  margin: -50px 10px 5px 0;
+  border-radius: 0px;
 }
 
 
