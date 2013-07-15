@@ -1,5 +1,4 @@
 
-
 /* So Ive clearly added a fuck ton of stuff. Just because I put it on there doesnt mean thats how I think it
 should be on the final website (obviously, we just starting) but I just tried to experiment with a bunch of stuff
 to see what looks good and what doesnt. Buttons are active so hover over them. I know it is super colorful,
@@ -201,14 +200,12 @@ body {
   height: 80px;
   width: 100px;
   padding-top: 20px;
-
 }
 
 .maincategory:hover {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHxH6WN1nu6v0oN2lbfV3BGoX64xe2R6iulw6ziK0cBEcNHXqG4w);
   background-size: 100% 100%;
   border: 1px white solid;
-  color: white;
 }
 
 .maincategory:hover .maincategorytexthover {
@@ -244,25 +241,27 @@ body {
 
 
 #featuredplaylist {
-  width: 43%;
-  height: 400px;
+  width: 40%;
   background-color: white;
   float: left;
   border: #ff9933 solid 2px;
   border-radius: 5px;
+  height: 400px;
+  overflow: auto;
   display: inline-block;
-  margin: 50px 0 30px 50px;;
+  margin: 50px 0 0 50px;
 }
 
 #featuredvideo {
-  width: 43%;
-  height: 400px;
+  width: 40%;
   background-color: white;
   float: right;
   border: #ff9933 solid 2px;
   border-radius: 5px;
+  height: 400px;
+  overflow: auto;
   display: inline-block;
-  margin: 50px 50px 30px 0;
+  margin: 50px 50px 0 0;
 }
 
 
@@ -271,6 +270,37 @@ body {
 
 h3 {
   color: #ff9933;
+}
+
+#aboutustext{
+  background: rgb(73,155,234); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(73,155,234,1) 0%, rgba(32,232,39,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(73,155,234,1)), color-stop(100%,rgba(32,232,39,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  rgba(73,155,234,1) 0%,rgba(32,232,39,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  rgba(73,155,234,1) 0%,rgba(32,232,39,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  rgba(73,155,234,1) 0%,rgba(32,232,39,1) 100%); /* IE10+ */
+  background: linear-gradient(135deg,  rgba(73,155,234,1) 0%,rgba(32,232,39,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#20e827',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  border: white solid 2px;
+  border-radius: 10px;
+  width: 80%;
+  overflow: auto;
+  display: inline-block;
+  margin: 50px 0px 50px 100px;
+  padding: 0 20px 0 20px;
+}
+
+#aboutustext, p {
+  color: black;
+}
+
+#aboutusbackground{
+  background-image: url(http://images.psxextreme.com/wallpapers/ps3/color_spectrum_635.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  clear: both;
+  border-radius: 10px;
+  overflow: auto;
 }
 
 
